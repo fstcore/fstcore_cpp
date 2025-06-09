@@ -1,0 +1,16 @@
+{
+    "smtp1": {
+        "host": "localhost",
+        "port": 445,
+        "username": "user",
+        "password": "password",
+        "SSL": false
+    },
+    "smtp2": {
+        "host": "localhost",
+        "port": 445,
+        "username": "user",
+        "password": "password",
+        "SSL": false
+    }
+}

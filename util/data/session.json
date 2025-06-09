@@ -1,0 +1,19 @@
+{
+    //"type": ["str", "function":["random", "md5", "base64"]],
+    "session": {
+        "login": {
+            {
+                "name": "session_id",
+                "type_name": "str",
+                "value": "random",                
+                "type_value": "function"
+            },
+            {
+                "name": "account",
+                "type_name": "table",
+                "value": "account",                
+                "type_value": "table"
+            }
+        }
+    }
+}
