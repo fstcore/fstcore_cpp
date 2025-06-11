@@ -4,7 +4,7 @@
 
 # fstcore for C++
 
-A brief description of what this project does and who it's for
+This is an sdk platform written in c++ language runtime, these function is for support software development c++ runtime.
 
 
 ## Screenshots
@@ -19,45 +19,34 @@ A brief description of what this project does and who it's for
 
 ## Installation
 
-Install my-project with npm
+Install fstcore_cpp with git
 
 ```bash
-  npm install my-project
-  cd my-project
+  git clone --recurse-submodule https://github.com/fstcore/fstcore_cpp.git
+  cd fstcore_cpp
 ```
     
 ## Usage/Examples
 
-```javascript
-import Component from 'my-project'
+```c++
+#include "fstcore/fstcore.cpp"
 
-function App() {
-  return <Component />
+int main(argc, char* argv[]) {
+  fstcore fstcore = fstcore();
+  fstcore.init();
+  fstcore.util.text.base64encode("Hello World !");
+  return 0;
 }
 ```
 
-
-## Running Tests
-
-To run tests, run the following command
-
-```bash
-  npm run test
-```
-
-
 ## Features
 
-- Light/dark mode toggle
-- Live previews
-- Fullscreen mode
-- Cross platform
-
-
-## Optimizations
-
-What optimizations did you make in your code? E.g. refactors, performance improvements, accessibility
-
+- Database
+- Encoder Decoder / Text / RegEx
+- Audio / Video
+- Socket / Websocket / HTTP
+- System / Proccess
+- Debug / Analysis
 
 ## Acknowledgements
 
@@ -68,26 +57,28 @@ What optimizations did you make in your code? E.g. refactors, performance improv
 
 ## Badges
 
-License: [shields.io](https://shields.io/)
+License: [shields.io](https://fstcore.nex.sh/)
 
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
-[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
-[![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
+[![MIT License](https://img.fstcore.nex.sh/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+[![GPLv3 License](https://img.fstcore.nex.sh/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
+[![AGPL License](https://img.fstcore.nex.sh/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
 
 
 ## Authors
 
+
+- [@fstcore](https://www.github.com/fstcore)
 - [@danup15](https://www.github.com/danup15)
 
 
 ## Feedback
 
-If you have any feedback, please reach out to us at fake@fake.com
+If you have any feedback, please reach out to us at admin@fstcore.nex.sh
 
 
 ## Support
 
-For support, email fake@fake.com or join our Slack channel.
+For support, email admin@fstcore.nex.sh or join our Slack channel.
 
 
 ## 🚀 About Me
@@ -108,3 +99,6 @@ See `contributing.md` for ways to get started.
 
 Please adhere to this project's `code of conduct`.
 
+## 🔗 Donate and Support
+[![Ko-Fi](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://katherineoelsner.com/)
+[![Bitcoin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
